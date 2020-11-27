@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anaadyanta 2018 | National Level Techno-Cultural Fest</title>
+  <meta name="description" content="Anaadyanta 2018 | National Level Techno-Cultural Fest" />
+  <meta property="og:title" content="Anaadyanta 2018" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://anaadyanta.org/" />
+  <meta property="og:description" content="Anaadyanta 2018 | National Level Techno-Cultural Fest" />
+
+  <link rel="manifest" href="manifest.json">
+
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,800,900' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <style type="text/css">
+    .sub-b :hover{
+      -webkit-transform: scale(1.4);
+      -moz-transform: scale(1.4);
+      -ms-transform: scale(1.4);
+      transform: scale(1.4);
+      transition: all 0.3s;
+    }
+    .icon-unit:hover{
+      text-shadow: 2px 2px black;
+      transition: all 0.2s;
+    }
+    a{
+      transition: all 0.2s;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="parallax-container">
+    <div class="parallax-layer layer-0" data-parallax-speed="0.11" data-max-scroll="1000"></div>
+    <div class="parallax-layer layer-1" data-parallax-speed="0.02" data-max-scroll="1000"></div>
+    <div class="parallax-layer layer-2" data-parallax-speed="0.05" data-max-scroll="1000">
+      <!-- <p id="date" style="margin-top: 230px; text-align: center; font-size: 3.2em; color: #9A3A1B; font-family: 'Anton', sans-serif;"></p>
+      <p id="data"></p> -->
+    </div>
+    <div class="parallax-layer layer-3" data-parallax-speed="0.11" data-max-scroll="1000"></div>
+    <div class="parallax-layer layer-4" data-parallax-speed="0.16" data-max-scroll="1000"></div>
+    <div class="parallax-layer layer-5" data-parallax-speed="0.26" data-max-scroll="1000"></div>
+    <div class="parallax-layer layer-6" data-parallax-speed="0.36" data-max-scroll="1000"></div>
+    <div class="parallax-layer layer-7" data-parallax-speed="0.49" data-max-scroll="1000"></div>
+    <div class="parallax-layer layer-8" data-parallax-speed="0.69" data-max-scroll="1000"></div>
+    <div class="parallax-layer layer-9" data-parallax-speed="1.00" data-max-scroll="1000"></div>
+  </div>
+
+
+  <div class="index">
+    <div class="content">
+      <div class="front-page">
+        <h1 class="title">Anaadyanta'18</h1>
+        <p></p>
+        <h3 class="dates">8th, 9th &amp; 10th March</h3>
+        <div class="row icon-block">
+          <div class="icon-unit col-sm-offset-1 col-sm-2 col-xs-offset-2 col-xs-2">
+            <a href="about.html">
+              <div class="icon sub-b">
+                <img src="img/icons/aboutus.png">
+              </div>
+              <div class="icon-name">About Us</div>
+            </a>
+          </div>
+          <div class="icon-unit col-sm-offset-2 col-sm-2 col-xs-offset-4 col-xs-2">
+            <a href="events/Events_Categories.html">
+              <div class="icon sub-b">
+                <img src="img/icons/events.png">
+              </div>
+              <div class="icon-name">Events</div>
+            </a>
+          </div>
+          <div class="icon-unit col-sm-offset-2 col-sm-2 col-xs-offset-5 col-xs-2">
+            <a href="team.html">
+              <div class="icon sub-b">
+                <img src="img/icons/team.png">
+              </div>
+              <div class="icon-name">Teams</div>
+            </div>
+          </a>
+        </div>
+        <div class="row icon-block">
+          <div class="icon-unit col-sm-offset-1 col-sm-2  col-xs-offset-2 col-xs-2">
+            <a href="gallery.html">
+              <div class="icon sub-b">
+                <img src="img/icons/gallery.png">
+              </div>
+              <div class="icon-name">Gallery</div>
+            </a>
+          </div>
+          <div class="icon-unit col-sm-offset-2 col-sm-2  col-xs-offset-4 col-xs-2">
+            <a href="sponsors.html">
+              <div class="icon sub-b">
+                <img src="img/icons/sponsors.png">
+              </div>
+              <div class="icon-name">Sponsors</div>
+            </a>
+          </div>
+          <div class="icon-unit col-sm-offset-2 col-sm-2  col-xs-offset-5 col-xs-2">
+            <a href="support.html">
+              <div class="icon sub-b">
+                <img src="img/icons/support.png">
+              </div>
+              <div class="icon-name">Support</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="js/parallax.js"></script>
+  <script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("Mar 8, 2018 00:00:00").getTime();
+
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+
+      // Get todays date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now an the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Output the result in an element with id="demo"
+      document.getElementById("date").innerHTML = days + " : " + hours + " : "
+      + minutes + " : " + seconds + "";
+
+      // If the count down is over, write some text
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+  }, 1000);
+  </script>
+
+</body>
+</html>

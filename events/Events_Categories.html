@@ -1,0 +1,174 @@
+<html>
+<head>
+  <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+  <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+  <link rel="shortcut icon" href="../img/favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <title>Event Categories | Anaadyanta</title>
+  <style>
+  @font-face {
+  font-family: 'Fable';
+  src: url('../font/Fable.ttf') format('truetype');
+ }
+
+    body {
+      margin:0;
+      background-color: #FFAF1B;
+      font-family: 'Kavivanar', cursive;
+      /*background-image: url("../img/bg.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;*/
+      background: #f81700;
+      background: -webkit-linear-gradient(to bottom, #f7b733, #f81700);
+      background: linear-gradient(to bottom, #f7b733, #f81700);
+      background-attachment: fixed;
+    }
+    h1 {
+      text-align: center;
+      font-size: 5em;
+
+      margin: 0;
+    }
+
+    div.options h1 {
+      opacity: 0;
+      transition: all 1s ease;
+      font-weight: normal;
+      text-transform: uppercase;
+    }
+    div.options {
+      float: left;
+      height: 25vw;
+      width: 25vw;
+      margin: 3.6%;
+      margin-top: 3.16%;
+      filter:grayscale(10%)blur(1px);
+      transition: all 0.5s ease;
+    }
+
+    div.options button{
+      display: none;
+      height: 3em;
+      width: 6em;
+      border: none;
+      background-color: #FFF;
+      opacity: 0;
+      transition: all 0.5s ease;
+    }
+
+    div.options:hover {
+      filter:grayscale(0%)blur(0px);
+      height: 35vw;
+      width: 30vw;
+      margin: 2.16%;
+      margin-top: 0%;
+    }
+
+    div.options:hover h1 {
+      opacity: 1;
+    }
+
+    div.options:hover button{
+      display: block;
+      opacity: 0.5;
+    }
+    div.options button:hover{
+      background-color: #0CD;
+      opacity: 1;
+    }
+    #op1 {
+      background-image: url("cul/choreonitee.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    #op2 {
+      background-image: url("tech.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    #op3 {
+      background-image: url("https://summitthisweek.com/sites/default/files/styles/ob_very_large/public/business/event/dj-865173_960_720.jpg?itok=eyXd0xwP");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  @media only screen and (max-width:720px) {
+    body {
+      margin:0;
+    }
+    h1 {
+      text-align: center;
+      font-size: 3em;
+    }
+
+    div.options h1 {
+      opacity: 0;
+      transition: all 1s ease;
+    }
+    div.options {
+      float: left;
+      height: 50vw;
+      width: 100vw;
+      margin: 0vw;
+      filter:grayscale(10%)blur(1px);
+      transition: all 0.5s ease;
+    }
+
+    div.options button{
+      z-index: -1;
+      display: none;
+      height: 3em;
+      width: 6em;
+      border: none;
+      background-color: #FFF;
+      opacity: 0;
+      transition: all 0.5s ease;
+    }
+
+    div.options:hover {
+      filter:grayscale(0%)blur(0px);
+      height: 100vw;
+      width: 100vw;
+    }
+
+    div.options:hover h1 {
+      opacity: 1;
+    }
+
+    div.options:hover button{
+      display: block;
+      opacity: 0.5;
+      z-index: 1;
+    }
+    div.options button:hover{
+      background-color: #0CD;
+      opacity: 1;
+    }
+
+  }
+  a {
+    text-decoration: none;
+  }
+  </style>
+</head>
+<body>
+  <br>
+  <h1 style="font-family: 'Fable'; color: #210002;"> Events </h1>
+  <br>
+  <a href="../index.html" style="position: fixed; margin: -80px 0 0 10px;"> <i class="fa fa-arrow-left fa-2x" aria-hidden="true" ></i></a>
+  <a href  = "Cultural_Events.php"><div class = "options" id="op1"><br><center><h1 style="color: white;">Cultural</h1><!-- <button>View</button></a> --></center>
+  </div></a>
+  <a href  = "Technical_Events.php"><div class = "options" id="op2"><br><center><h1 style="color: white;">Technical</h1><!-- <button>View</button> --></center>
+  </div></a>
+  <a href  = "#"><div class = "options" id="op3"><h1 style="color: white;">Pro Nights</h1><br><center><!-- <button>View</button></a> --></center>
+  </div></a>
+</body>
+</html>
